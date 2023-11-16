@@ -1,0 +1,21 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+.main-information{
+    border-left: 1px solid orange;
+    padding-left: 30px;
+}
+h1{
+    margin-left: 30px;
+}
+h2{
+    color: orange;
+}
+.contact-information{
+    list-style-type: circle;
+}
