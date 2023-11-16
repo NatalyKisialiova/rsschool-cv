@@ -19,3 +19,11 @@ h2{
 .contact-information{
     list-style-type: circle;
 }
+.image{
+    height: 300px;
+    padding-left: 30px;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+}
