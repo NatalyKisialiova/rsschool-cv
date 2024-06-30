@@ -7,6 +7,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
+    line-height:1.5;
+    font-size: 18px;
 }
 header, footer {
     background-color: #ac8ba9;
@@ -51,6 +53,7 @@ a{
 }
 .section {
    width: calc(50% - 20px);
+   padding-left: 25px;
 }
 .section-profile {
    width: 100%;
@@ -96,9 +99,30 @@ h2 {
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 0px 25px;
+    padding: 10px 25px;
 }
 .copyright {
     display:flex;
     gap:20px;
+}
+.container-contacts h2,
+.container-summary h2, 
+.container-skills h2, 
+.container-code h2, 
+.container-projects h2, 
+.container-education h2, 
+.container-languages h2 {
+    margin:0px;
+}
+.container-contacts,
+.container-summary, 
+.container-skills, 
+.container-code, 
+.container-projects, 
+.container-education, 
+.container-languages {       
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #dacad9;
 }
