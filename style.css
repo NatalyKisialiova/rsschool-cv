@@ -73,10 +73,12 @@ a{
     display: flex;
     justify-content:center;
 }
+.image img {
+    border:2px solid #574956;
+}
 img {
     height: 100%;
-    object-fit: cover;
-    border:2px solid #574956;
+    object-fit: cover;  
 }
 .container-for-title {
     display: flex;
