@@ -8,15 +8,14 @@ body {
     justify-content: space-between;
     margin: 0px;
 }
-header {
-    width: 100%;
+header, footer {
     background-color: #ac8ba9;
 }
 .container {
     width: 1440px;
     margin: 0px auto;
     padding: 0px 20px;
-    background-color: rgb(248, 236, 245);
+    /* background-color: rgb(248, 236, 245); */
 }
 .header-container {
     background-color: #ac8ba9;
@@ -85,4 +84,21 @@ h2 {
 }
 .contact-information{
     list-style-type: circle;
+}
+.footer-container {
+    min-height: 700px;
+}
+.container-icon-rss {
+    width: 60px;
+    height: 60px;
+}
+.footer-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0px 25px;
+}
+.copyright {
+    display:flex;
+    gap:20px;
 }
