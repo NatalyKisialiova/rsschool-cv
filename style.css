@@ -1,0 +1,138 @@
+*{
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    line-height:1.5;
+    font-size: 18px;
+}
+header, footer {
+    background-color: #ac8ba9;
+}
+.container {
+    width: 1440px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    /* background-color: rgb(248, 236, 245); */
+}
+.header-container {
+    background-color: #ac8ba9;
+} 
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #574956;    
+}
+.nav-link:hover {
+    cursor: pointer;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #f4f0f4;
+}
+.nav-item {
+    padding: 0px 25px;
+}
+
+.nav-link {
+    line-height: 40px;
+    color: #574956;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.main-container {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.section {
+   width: calc(50% - 20px);
+   padding-left: 25px;
+}
+.section-profile {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 30px 0px;
+   gap: 50px;
+}
+.image {
+    width: calc(50% - 10px);
+    height: 300px;
+    display: flex;
+    justify-content:center;
+}
+.image img {
+    border:2px solid #574956;
+}
+img {
+    height: 100%;
+    object-fit: cover;  
+}
+.container-for-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+h1 {
+    font-size: 30px;
+    color:#413939;
+}
+h2 {
+    color:#594e4e;
+}
+.contact-information{
+    list-style-type: circle;
+}
+.footer-container {
+    min-height: 70px;
+}
+.container-icon-rss {
+    width: 60px;
+    height: 60px;
+}
+.footer-container {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 25px;
+    color: #574956;
+    font-weight: 600;
+}
+.copyright {
+    display:flex;
+    gap:20px;
+}
+.container-contacts h2,
+.container-summary h2, 
+.container-skills h2, 
+.container-code h2, 
+.container-projects h2, 
+.container-education h2, 
+.container-languages h2 {
+    margin:0px;
+}
+.container-contacts,
+.container-summary, 
+.container-skills, 
+.container-code, 
+.container-projects, 
+.container-education, 
+.container-languages {       
+    display: inline-block;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #dacad9;
+}
